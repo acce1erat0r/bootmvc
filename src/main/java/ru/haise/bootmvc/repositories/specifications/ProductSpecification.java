@@ -19,14 +19,5 @@ public class ProductSpecification {
     public static Specification<Product> lessOrEquals(BigDecimal max){
         return (root, query, builder) -> builder.lessThan(root.get("title"), max);
     }
-    private String test = " test";
-    //asdasdasd
-    private String test2 = " test";
-    private String test3 = " test";
-    private String test4 = " test";
-    private String test5 = " test";
 
-
-    private String test8 = " test";
-// TODO: Разобраться в спецификации
 }
