@@ -20,5 +20,6 @@ public class ProductSpecification {
         return (root, query, builder) -> builder.lessThan(root.get("title"), max);
     }
     private String test = " test";
+    //asdasdasd
 // TODO: Разобраться в спецификации
 }
