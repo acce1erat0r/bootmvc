@@ -21,5 +21,9 @@ public class ProductSpecification {
     }
     private String test = " test";
     //asdasdasd
+    private String test2 = " test";
+    private String test3 = " test";
+    private String test4 = " test";
+    private String test5 = " test";
 // TODO: Разобраться в спецификации
 }
